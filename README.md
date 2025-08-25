@@ -14,17 +14,12 @@ A Machine Learning-based web application that recommends the **top 3 crops** sui
 ---
 
 ## Folder Structure
-project/
-|-- api/ # Backend (FastAPI for serving ML model)
-|  -- app.py 
-|-- app/ # Frontend (Streamlit app for UI) 
-|  -- main.py
-|-- data/ # Raw dataset
-|  -- Crop_recommendation.csv 
-|-- model/ # Trained machine learning models 
-|  -- model.py 
-|  -- model.pkl  
-|  -- scaler.pkl 
-|  -- encodings.pkl
-|-- README.md # Documentation
-|-- requirements.txt # Dependencies
+        .
+        ├── src/
+        │   ├── main.py
+        │   └── utils.py
+        ├── data/
+        │   └── input.csv
+        ├── docs/
+        │   └── usage.md
+        └── README.md
