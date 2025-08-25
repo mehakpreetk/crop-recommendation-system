@@ -13,6 +13,8 @@ A Machine Learning-based web application that recommends the **top 3 crops** sui
 
 ---
 
+![crop recommender app predicting suitable crops](images/screenshot.png)
+
 ## Folder Structure
         .
         ├── api/
@@ -21,6 +23,8 @@ A Machine Learning-based web application that recommends the **top 3 crops** sui
         │   └── app.py
         ├── data/
         │   └── Crop_recommendation.csv
+        ├── images/
+        │   └── screenshot.png
         ├── model/
         │   ├── crop_model.py
         │   ├── encodings.pkl
