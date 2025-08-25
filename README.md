@@ -15,15 +15,22 @@ A Machine Learning-based web application that recommends the **top 3 crops** sui
 
 ## Folder Structure
         .
-        ├── src/
-        │   ├── main.py
-        │   └── utils.py
+        ├── api/
+        │   └── main.py
+        ├── app/
+        │   └── app.py
         ├── data/
-        │   └── input.csv
-        ├── docs/
-        │   └── usage.md
-        └── README.md
-<<<<<<< HEAD
+        │   └── Crop_recommendation.csv
+        ├── model/
+        │   ├── crop_model.py
+        │   ├── encodings.pkl
+        │   ├── model.pkl
+        │   └── scaler.pkl
+        ├── README.md
+        └── requirements.txt
 
-=======
->>>>>>> d0ee3a58822ad9fd464696c2e9d3b50085f26344
+
+        
+            
+
+        
