@@ -23,4 +23,7 @@ A Machine Learning-based web application that recommends the **top 3 crops** sui
         ├── docs/
         │   └── usage.md
         └── README.md
+<<<<<<< HEAD
 
+=======
+>>>>>>> d0ee3a58822ad9fd464696c2e9d3b50085f26344
